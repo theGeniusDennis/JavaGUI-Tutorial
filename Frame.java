@@ -1,3 +1,5 @@
+import java.awt.Color;
+
 import javax.swing.ImageIcon;
 import javax.swing.JFrame;
 
@@ -11,6 +13,12 @@ public class Frame {
         frame.setResizable(false); //sets whether frame should be resizable
         frame.setSize(450, 450); //sets the x-dimension and the y-dimension
         frame.setVisible(true); // makes frame visible
+
+
+
+        ImageIcon image =  new ImageIcon("icon.jpg");
+        frame.setIconImage(image.getImage()); //changes the logo of the JFrame
+        frame.getContentPane().setBackground(Color.BLUE); // chnages the background colour
 
        
     }
