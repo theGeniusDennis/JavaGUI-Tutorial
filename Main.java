@@ -27,11 +27,15 @@ public class Main {
        //JPanel setup
        JPanel redPanel = new JPanel();
        redPanel.setBackground(Color.RED);
-       redPanel.setBounds(250,0,250,250);
+       redPanel.setBounds(0,0,250,250);
 
        JPanel bluePanel = new JPanel();
        bluePanel.setBackground(Color.blue);
-       bluePanel.setBounds(0,025,250,250);
+       bluePanel.setBounds(250,0,250,250);
+
+       JPanel greenPanel = new JPanel();
+       greenPanel.setBackground(Color.green);
+       greenPanel.setBounds(0,250,500,250);
 
 
        //JFrame setup
